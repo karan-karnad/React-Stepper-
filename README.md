@@ -1,4 +1,4 @@
-##Stepper Flow
+#Stepper Flow
 
 What is Stepper Flow ?
   ~ Breaking down a long process with multiple stages of decision making/ status updation into a clearly fragmented number of steps without burdening the users with a plethora of congested selections.
@@ -11,26 +11,3 @@ Why Stepper Flow?
   ##Applications : 
   Selections (ticket booking , cab booking, onboading steps, profile making,  flight booking)  
   Status updates (ecommerce order status, delivery apps,application status)
-
-```js
-<Stepper stepDetails={[
-  {
-    "step": "Venue",
-    "stepDetail": "",
-    "active": true,
-    "completed": false,
-  },
-  {
-    "step": "Date and Time",
-    "stepDetail": "",
-    "active": false,
-    "completed": false,
-  },
-  {
-    "step": "Ticket",
-    "stepDetail": "",
-    "active": false,
-    "completed": false,
-  }
-]} />
-```

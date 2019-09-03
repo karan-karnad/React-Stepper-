@@ -1,6 +1,3 @@
-/* eslint-disable prettier/prettier */
-// @flow
-
 import React from 'react'
 import { createComponent } from 'react-fela'
 import { __step, __stepperContent, __stepWrapper, __outerBox, __stepperMain, __container } from './__style'

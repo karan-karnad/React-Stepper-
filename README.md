@@ -1,13 +1,19 @@
-#Stepper Flow
+# Stepper Flow
 
-What is Stepper Flow ?
-  ~ Breaking down a long process with multiple stages of decision making/ status updation into a clearly fragmented number of steps without burdening the users with a plethora of congested selections.
- 
-How to go about Stepper Flow ?
-  ~ The first step involves classifying the stages of selection into clearly defined steps, designers/product teams for large organisations may make this call.
-  ~ Define the components/modules for these steps. Follow the react philosophy of independent, self sufficient, single responsibilty components.
+**What is Stepper Flow ?**
+
+  *A contextual user flow breaking down a long process of selections into clearly divided number of sinecure steps while         acknowledging the user about his/her selection in every step.*
   
-Why Stepper Flow?
-  ##Applications : 
-  Selections (ticket booking , cab booking, onboading steps, profile making,  flight booking)  
-  Status updates (ecommerce order status, delivery apps,application status)
+**Where would you need Stepper Flow?**
+
+  *Forms with a plethora of information to be collected
+  *Delivery stages in ecommerce and the information regarding each stage - Amazon, Flipkart etc
+  *Booking apps with multiple steps for completion - Travel, Entertainment, Flight, Cabs
+ 
+ **How to Stepper Flow?**
+ 
+  *Built as a react component which can be plugged into your app with minimal integration hassle
+  *Accepts a single object array with each object indicating the step information { StepName, StepDetail,                       IsActiveSelectionStep, IsCompleted } - Read stories.js 
+  
+    
+    
